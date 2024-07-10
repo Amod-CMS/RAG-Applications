@@ -14,9 +14,9 @@ base_url = "https://cdl.cms.co.in/group/cms"
 start_url = "https://cdl.cms.co.in/group/cms"
 login_url = "https://cdl.cms.co.in/web/cms/home?p_p_id=com_liferay_login_web_portlet_LoginPortlet&p_p_lifecycle=1&p_p_state=maximized&p_p_mode=view&refererPlid=33886&_com_liferay_login_web_portlet_LoginPortlet_javax.portlet.action=%2Flogin%2Flogin&_com_liferay_login_web_portlet_LoginPortlet_mvcRenderCommandName=%2Flogin%2Flogin"  # Replace with the actual login URL
 # Replace with your username
-_com_liferay_login_web_portlet_LoginPortlet_login = "amod_nagpal@cms.co.in"
+_com_liferay_login_web_portlet_LoginPortlet_login = "----------------"
 # Replace with your password
-_com_liferay_login_web_portlet_LoginPortlet_password = "Suresh@101066"
+_com_liferay_login_web_portlet_LoginPortlet_password = "**********"
 output_file = "cdl.txt"
 
 session = requests.Session()
