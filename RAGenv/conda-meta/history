@@ -1,0 +1,58 @@
+==> 2024-05-29 10:51:19 <==
+# cmd: C:\Users\amod_nagpal\anaconda3\Scripts\conda-script.py create -p RAGenv python==3.11
+# conda version: 23.9.0
++defaults/noarch::tzdata-2024a-h04d1e81_0
++defaults/win-64::bzip2-1.0.8-h2bbff1b_6
++defaults/win-64::ca-certificates-2024.3.11-haa95532_0
++defaults/win-64::libffi-3.4.4-hd77b12b_1
++defaults/win-64::openssl-1.1.1w-h2bbff1b_0
++defaults/win-64::pip-24.0-py311haa95532_0
++defaults/win-64::python-3.11.0-h966fe2a_3
++defaults/win-64::setuptools-69.5.1-py311haa95532_0
++defaults/win-64::sqlite-3.45.3-h2bbff1b_0
++defaults/win-64::tk-8.6.14-h0416ee5_0
++defaults/win-64::vc-14.2-h2eaa2aa_1
++defaults/win-64::vs2015_runtime-14.29.30133-h43f2093_3
++defaults/win-64::wheel-0.43.0-py311haa95532_0
++defaults/win-64::xz-5.4.6-h8cc25b3_1
++defaults/win-64::zlib-1.2.13-h8cc25b3_1
+# update specs: ['python==3.11']
+==> 2024-05-29 11:05:01 <==
+# cmd: C:\Users\amod_nagpal\anaconda3\Scripts\conda-script.py install -p D:\RAG Applications\Test\RAGenv ipykernel --update-deps --force-reinstall
+# conda version: 23.9.0
+-defaults/win-64::openssl-1.1.1w-h2bbff1b_0
+-defaults/win-64::python-3.11.0-h966fe2a_3
++defaults/noarch::asttokens-2.0.5-pyhd3eb1b0_0
++defaults/noarch::decorator-5.1.1-pyhd3eb1b0_0
++defaults/noarch::executing-0.8.3-pyhd3eb1b0_0
++defaults/noarch::parso-0.8.3-pyhd3eb1b0_0
++defaults/noarch::prompt_toolkit-3.0.43-hd3eb1b0_0
++defaults/noarch::pure_eval-0.2.2-pyhd3eb1b0_0
++defaults/noarch::six-1.16.0-pyhd3eb1b0_1
++defaults/noarch::stack_data-0.2.0-pyhd3eb1b0_0
++defaults/noarch::wcwidth-0.2.5-pyhd3eb1b0_0
++defaults/win-64::colorama-0.4.6-py311haa95532_0
++defaults/win-64::comm-0.2.1-py311haa95532_0
++defaults/win-64::debugpy-1.6.7-py311hd77b12b_0
++defaults/win-64::ipykernel-6.28.0-py311haa95532_0
++defaults/win-64::ipython-8.20.0-py311haa95532_0
++defaults/win-64::jedi-0.18.1-py311haa95532_1
++defaults/win-64::jupyter_client-8.6.0-py311haa95532_0
++defaults/win-64::jupyter_core-5.5.0-py311haa95532_0
++defaults/win-64::libsodium-1.0.18-h62dcd97_0
++defaults/win-64::matplotlib-inline-0.1.6-py311haa95532_0
++defaults/win-64::nest-asyncio-1.6.0-py311haa95532_0
++defaults/win-64::openssl-3.0.13-h2bbff1b_2
++defaults/win-64::packaging-23.2-py311haa95532_0
++defaults/win-64::platformdirs-3.10.0-py311haa95532_0
++defaults/win-64::prompt-toolkit-3.0.43-py311haa95532_0
++defaults/win-64::psutil-5.9.0-py311h2bbff1b_0
++defaults/win-64::pygments-2.15.1-py311haa95532_1
++defaults/win-64::python-3.11.9-he1021f5_0
++defaults/win-64::python-dateutil-2.9.0post0-py311haa95532_2
++defaults/win-64::pywin32-305-py311h2bbff1b_0
++defaults/win-64::pyzmq-25.1.2-py311hd77b12b_0
++defaults/win-64::tornado-6.3.3-py311h2bbff1b_0
++defaults/win-64::traitlets-5.7.1-py311haa95532_0
++defaults/win-64::zeromq-4.3.5-hd77b12b_0
+# update specs: ['pywin32', 'tzdata', 'six', 'ipython', 'prompt-toolkit', 'pip', 'pygments', 'prompt_toolkit', 'zlib', 'debugpy', 'ca-certificates', 'tk', 'asttokens', 'wcwidth', 'matplotlib-inline', 'sqlite', 'vs2015_runtime', 'jupyter_client', 'comm', 'parso', 'tornado', 'wheel', 'decorator', 'jedi', 'traitlets', 'zeromq', 'pure_eval', 'libffi', 'python-dateutil', 'platformdirs', 'nest-asyncio', 'setuptools', 'bzip2', 'pyzmq', 'vc', 'stack_data', 'libsodium', 'executing', 'openssl', 'jupyter_core', 'psutil', 'colorama', 'python=3.11', 'packaging', 'xz', 'ipykernel']

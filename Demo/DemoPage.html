@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyperlinked Images</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .link {
+            text-align: center;
+            text-decoration: none;
+            color: #000;
+        }
+
+        .link img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+        }
+
+        .link img:hover {
+            transform: scale(1.1);
+        }
+
+        .link span {
+            display: block;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <a href="http://35.154.163.181/" class="link">
+            <img src="FAQ.png" alt="QnA" height="1000px">
+            <span>QnA</span>
+        </a>
+        <a href="http://35.154.163.181:8081/" class="link" target="_blank">
+            <img src="Payment.jpg" alt="Payment" >
+            <span>Payment</span>
+        </a>
+        <a href="http://35.154.163.181:8085/" class="link">
+            <img src="AI.jpg" alt="AI">
+            <span>AI</span>
+        </a>
+        <a href="http://35.154.163.181:8083/" class="link">
+            <img src="Document.png" alt="Doc Chat">
+            <span>Doc Chat</span>
+        </a>
+    </div>
+</body>
+
+</html>

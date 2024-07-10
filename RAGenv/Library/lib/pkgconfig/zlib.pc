@@ -1,0 +1,13 @@
+prefix=D:/RAG Applications/Test/RAGenv/Library
+exec_prefix=D:/RAG Applications/Test/RAGenv/Library
+libdir=D:/RAG Applications/Test/RAGenv/Library/lib
+sharedlibdir=D:/RAG Applications/Test/RAGenv/Library/lib
+includedir=D:/RAG Applications/Test/RAGenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
